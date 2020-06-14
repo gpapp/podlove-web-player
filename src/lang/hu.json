@@ -1,0 +1,141 @@
+{
+  "CHAPTERS": {
+    "TITLE": "Fejezetek"
+  },
+  "AUDIO": {
+    "TITLE": "Audio",
+    "VOLUME": "Hangerő",
+    "SPEED": "Sebesség",
+    "DEBUG_STATE": "Export Debug State"
+  },
+  "PLAYER": {
+    "REPLAY": "Újrajátszás",
+    "RETRY": "Újrapróbál"
+  },
+  "ERROR": {
+    "LOADING": {
+      "TITLE": "Hiba a betöltés közben",
+      "MESSAGE": "A fájlok letöltése sikertelen, próbálkozzon később."
+    },
+    "MISSING_FILES": {
+      "TITLE": "Hiányos információk",
+      "MESSAGE": "A lejátszáshoz szükséges fájlok hiányoznak."
+    }
+  },
+  "FILES": {
+    "TITLE": "Fájlok",
+    "TYPES": {
+      "AUDIO": {
+        "HEADER": "Hang fájlok"
+      }
+    },
+    "ACTIONS": {
+      "DOWNLOAD": "Letölt",
+      "COPY": "Url másolás"
+    }
+  },
+  "SHARE": {
+    "TITLE": "Megoszt",
+    "CONTENT": {
+      "SHOW": "Show",
+      "EPISODE": "Rész",
+      "CHAPTER": "Fejezet",
+      "TIME": "Időpont"
+    },
+    "SHARE_CHANNEL": "Megosztás mint...",
+    "SHARE_LINK": "Link",
+    "ACTIONS": {
+      "COPY": "Másol"
+    },
+    "EPISODE": {
+      "TEXT": {
+        "BEGINNING": "\"{title}\" ({link})",
+        "CHAPTER": "\"{chapter}\" of \"{title}\" ({link})",
+        "PLAYTIME": "\"{title}\" ({link})"
+      },
+      "SUBJECT": {
+        "BEGINNING": "{title}",
+        "CHAPTER": "{title} - {chapter}",
+        "PLAYTIME": "{title}"
+      }
+    },
+    "SHOW": {
+      "TEXT": "\"{title}\" ({link})",
+      "SUBJECT": "{title}"
+    },
+    "EMBED": {
+      "TITLE": "Epizód beágyazása",
+      "LABEL": {
+        "SIZE": "Beágyazás méret",
+        "CODE": "Kód"
+      },
+      "ACTIONS": {
+        "COPY": "Másol"
+      }
+    }
+  },
+  "INFO": {
+    "TITLE": "Info",
+    "PUBLICATION_DATE": "Kiadva: {month}/{day}/{year}",
+    "DURATION_WITH_HOURS": "{hours} óra {minutes} perc",
+    "DURATION": "{minutes} perc",
+    "ON_AIR": "Élő adás"
+  },
+  "TRANSCRIPTS": {
+    "TITLE": "Szöveg",
+    "CHAPTER": "Fejezet {index}: {title}",
+    "FOLLOW": "követ",
+    "SEARCH": "Keres",
+    "NO_SEARCH_RESULTS": "Nincs eredmény"
+  },
+  "MESSAGES": {
+    "COPIED": "Copied!"
+  },
+  "A11Y": {
+    "ALT_EPISODE_COVER": "Epizód képe",
+    "ALT_SHOW_COVER": "Show képe",
+    "PLAYER_PLAY": "Epizód lejátszása",
+    "PLAYER_START": "Epizód lejátszása, hossz {hours} óra {minutes} perc {seconds} másodperc",
+    "PLAYER_RESTART": "Lejátszás újrakezdése",
+    "PLAYER_ERROR": "Lejátszás újrapróbálása",
+    "PLAYER_PAUSE": "Lejátszás szüneteltetése",
+    "PLAYER_LOADING": "Bufferelés",
+    "PLAYER_CHAPTER_NEXT": "Következő fejezethez: {index} - {title}",
+    "PLAYER_CHAPTER_END": "Ugrás a lejátszás végére",
+    "PLAYER_CHAPTER_PREVIOUS": "Előző fejezethez: {index} - {title}",
+    "PLAYER_CHAPTER_CURRENT": "Aktuális fejezet elejére: {index} - {title}",
+    "PLAYER_STEPPER_BACK": "Vissza {seconds} másodperccel",
+    "PLAYER_STEPPER_FORWARD": "Előre {seconds} másodperccel",
+    "PROGRESSBAR_INPUT": "Lejátszási idő miliszekundumban",
+    "TIMER_CURRENT": "Aktuális lejátszás: {hours} óra {minutes} perc {seconds} másodperc",
+    "TIMER_LEFT": "Fennmaradó idő: {hours} óra {minutes} perc {seconds} másodperc",
+    "TIMER_CHAPTER": "Aktuális fejezet: {index} - {title}",
+    "SPEAKER_COVER": "Előadó {name}",
+    "CHAPTER_ENTRY": "{index} - {title} (Hossz: {duration}, Marad: {remaining})",
+    "SHARE_CONTENT_SHOW": "Show megosztás {title}",
+    "SHARE_CONTENT_EPISODE": "Epizód megosztás {title}",
+    "SHARE_CONTENT_CHAPTER": "Fejezet megosztás {title}",
+    "SHARE_CONTENT_PLAYTIME": "Időpont megosztás {playtime}",
+    "SHARE_CHANNEL": "Megosztás {channel}",
+    "SHARE_EMBED": "Beágyazható kód készítés",
+    "COPY_SHARE_LINK": "Megosztható link másolás",
+    "SHARE_OVERLAY": "Share Overlay",
+    "OVERLAY_CLOSE": "Close Overlay",
+    "COPY_EMBED_CODE": "Beágyazható kód másolás",
+    "DOWNLOAD_EPISODE": "Epizód letöltés",
+    "SELECT_EPISODE_FILETYPE": "Fájltípus választás",
+    "COPY_DOWNLOAD_URL": "Letöltési link másolás",
+    "RATE": "Lejátszási sebesség",
+    "RATE_CURRENT": "Current: {rate}%",
+    "RATE_INCREASE": "Lejátszás gyorsítása",
+    "RATE_DECREASE": "Lejátszás lassítása",
+    "SET_RATE_IN_PERCENT": "Lejátszási sebesség %-ban",
+    "VOLUME": "Hangerő",
+    "VOLUME_CURRENT": "Aktuális: {volume}%",
+    "VOLUME_MUTE": "Némítás",
+    "VOLUME_UNMUTE": "Némítás feloldás",
+    "SET_VOLUME_IN_PERCENT": "Lejátszási sebesség %-os beállítása",
+    "DOWNLOAD_FILE": "Fájl letöltés {url}",
+    "COPY_FILE": "Fájl másolás {url}"
+  }
+}
